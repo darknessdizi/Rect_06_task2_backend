@@ -11,14 +11,10 @@ const notes = [];
 app.use(koaBody({ // чтобы обработать тело запроса
   // (обязательно объявить до Middleware где работаем с body)
   urlencoded: true, // иначе тело будет undefined (тело будет строкой)
+  multipart: true,
 }));
 
 app.use(cors()); // задаем правила для политики CORS
-
-// app.use(function (req, res, next) {
-//   res.setHeader('Content-Type', 'application/json');
-//   next();
-// });
 
 const router = new Router(); // создали роутер
 app.use(router.routes());
