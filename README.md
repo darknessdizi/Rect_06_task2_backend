@@ -3,8 +3,6 @@ CRUD
 
 ## Backend
 
-*Ссылка на git-hub репозиторий (backend):* https://github.com/darknessdizi/Rect_06_task2_backend.git
-
 *Ссылка сервера на render:* 
 
 ---
@@ -14,6 +12,8 @@ CRUD
 *Ссылка на git-hub репозиторий (fronted):* https://github.com/darknessdizi/Rect_06_task2.git
 
 *Ссылка на страницу:* https://darknessdizi.github.io/Rect_06_task2/
+
+---
 
 Вам необходимо реализовать базовый CRUD без обновления при работе с HTTP.
 
